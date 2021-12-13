@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>21378450.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\new_file.png" />
+    <None Remove="img\open.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\new_file.png" />
+    <Resource Include="img\open.png" />
+  </ItemGroup>
+
+</Project>
